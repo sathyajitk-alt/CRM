@@ -1,0 +1,13 @@
+{
+    "OPENAI_API_KEY":"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"
+}
+
+Postgress Passowrd: password
+
+'ENGINE': ',
+        'NAME': 'salescrm',
+        'PASSWORD': 'password',
+        'HOST': 'localhost',
+        'PORT': '5432',
+
+

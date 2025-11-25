@@ -1,0 +1,10 @@
+
+-- FINAL FULL IMPLEMENTATION SCHEMA PATCH
+ALTER TABLE accounts ADD COLUMN IF NOT EXISTS owner_id INT;
+ALTER TABLE contacts ADD COLUMN IF NOT EXISTS owner_id INT;
+ALTER TABLE opportunities ADD COLUMN IF NOT EXISTS owner_id INT;
+
+CREATE TABLE IF NOT EXISTS team_map (
+    manager_id INT,
+    member_id INT
+);
